@@ -34,10 +34,10 @@ button {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform-origin: center;
+  transform-origin: top;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  opacity: 0%;
+  opacity: 20%;
   text-align: center;
 }
 .popup-modal p {
@@ -58,6 +58,7 @@ button {
 }
 
 .backdrop.show {
-  opacity: 30%;
+  opacity: 20%;
 }
 
+.popup-modal.show:hover{translate:(50%,50%);}
